@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Header Styling */
+
+nav{
+    top: 110px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 2.5rem;
+}
+
+.navs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 7rem;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #0000001A
+}
+.nav-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.5rem;
+    
+}
+
+.nav-body a{
+    height: 19px;
+    color: black;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    gap: 3rem;
+    
+}
+
+.head-body{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9rem;
+}
+
+/* Main Sttyling */
+
+main{
+    padding: 2rem 0rem;
+}
+
+.category{
+    padding: 0rem 5rem;
+}
+
+.category-up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.category-up h6{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.09px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.category-up .p{
+    width: 200px;
+    height: 60px;
+    top: 950px;
+    left: 1160px;
+    border-radius: 16px 16px 16px 16px;
+    background: #E7FAFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-up .p p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    letter-spacing: -0.02em;
+}
+.category-down{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 11rem;
+}
+
+.recipe{
+    padding: 0rem 5rem 5rem 5rem;
+}
+
+.recipe-up h6{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.09px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.recipe-up p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #00000099;
+    padding: 0rem 24.5rem 7rem 24.5rem;
+}
+.recipe-items{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.5rem;
+}
+.item1{
+    width: 400px;
+    height: 424px;
+    top: 1709px;
+    left: 80px;
+    gap: 0px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    padding: 0rem 1rem;
+}
+
+.item1 .item1-middle h6{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    padding: 1rem 0rem 1.5rem 0rem;
+}
+
+.item1 .item1-down{
+    display: flex;
+    gap: 2rem;
+}
+
+.item1 .item1-down .item1-left{
+    display: flex;
+}
+
+.item1 .item1-down .item1-right{
+    display: flex;
+}
+
+.chef{
+    display: flex;
+    padding: 0rem 5rem 5rem 5rem;
+}
+
+.chef .chef-left{
+    padding: 9rem 0rem 0rem 0rem;
+}
+
+.chef-left h6{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.09px;
+    letter-spacing: -0.04em;
+}
+.chef-left p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 2rem 9rem 5rem 0rem;
+}
+
+.chef-left .button1{
+    width: 180px;
+    height: 60px;
+    top: 3699px;
+    left: 80px;
+    border-radius: 16px;
+    background: #000000;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    cursor: pointer;
+}
+.instagram{
+    height: 964px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+.instagram-write h6{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.09px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.instagram-write p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    padding: 2rem 7rem 6rem 7rem;
+}
+
+.instagram-post{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    padding: 0rem 5rem 5rem 5rem;
+}
+.instagram-button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram-button{
+    background-color: #000000;
+    width: 229px;
+    height: 60px;
+    border-radius: 16px;
+}
+
+.instagram-button a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 1.2rem;
+    gap: 1rem;
+}
+
+.instagram-button p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    text-align: center;
+}
+
+.meals{
+    padding: 9rem 5rem 5rem 5rem;
+}
+
+.meals-up{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7rem;
+}
+
+.meals-up h6{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.09px;
+    letter-spacing: -0.04em;
+    padding-right: 11rem;
+}
+
+.meals-up p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #00000099;
+    padding-top: 2rem;
+}
+
+.meals-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+.menu1{
+    width: 290px;
+    height: 380px;
+}
+
+.menu1 .menu-middle h6{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+.menu1 .menu-down{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu1 .menu-down .menu-left{
+    display: flex;
+}
+
+.menu1 .menu-down .menu-right{
+    display: flex;
+}
+
+.inbox{
+    background-image: url(/image/Mask\ Group.png);
+    background-repeat: no-repeat;
+    height: 470px;
+    background-size: cover;
+    margin: 0rem 5rem 5rem 5rem;
+}
+
+.inbox-up{
+    padding: 4rem 0rem 0rem 0rem;
+}
+
+.inbox-up h6{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.09px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.inbox-up p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    padding: 0rem 24rem 5rem 24rem;
+}
+
+.inbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inbox-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    width: 480px;
+    height: 80px;
+    border-radius: 24px;
+    background: #FFFFFF;
+}
+
+.inbox-down input[type="text"] {
+    border: none;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    width: 160px;
+    height: 60px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.nav2-left p{
+    padding-top: 2rem;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #00000099;
+}
+
+.nav2-right{
+    display: flex;
+    gap: 4.5rem;
+    padding-top: 3rem;
+}
+
+.nav2-right a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+/* Footer Styling */
+
+footer{
+    padding: 0rem 5rem 0rem 5rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 0rem 2rem 0rem;
+}
+
+.footer-left p{
+    padding-left: 11rem;
+}
+
+.footer-right{
+    display: flex;
+    gap: 2.2rem;
+}

@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav{
+    top: 110px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 2.5rem;
+}
+
+.navs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 7rem;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #0000001A
+}
+
+.nav-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.5rem;
+    
+}
+
+.nav-body a{
+    height: 19px;
+    color: black;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    gap: 3rem;
+    
+}
+
+/* Main Styling */
+
+.chef{
+    padding: 2rem 5rem 5rem 5rem;
+}
+
+.chef-up h6{
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77.45px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.chef-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.chef-middle .identity{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.chef-middle .identity P{
+    padding-top: 0.5rem;
+}
+
+.chef-middle .date p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+    color: #00000099;
+}
+
+.chef-down p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #00000099;
+    padding: 0rem 9rem 0rem 9rem;
+}
+
+.chef-image{
+    padding: 0rem 5rem 5rem 5rem;
+}
+
+.chef-image img{
+    width: 100%;
+}
+
+.write-section{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin: 0rem 5rem 5rem 5rem;
+}
+
+.writeup{
+    width: 920px;
+    height: 1772px;
+    border: 1px;
+    padding: 0rem 2.5rem 0rem 2.5rem;
+}
+
+.write1 h6{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.04em;
+    margin-bottom: 2rem;
+}
+
+.write1 p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0rem 0rem 5rem 0rem;
+}
+
+.write1 img{
+    margin-bottom: 2rem;
+}
+
+.write2{
+    width: 920px;
+    height: 224px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+    margin-bottom: 2rem;
+}
+
+.write2 h6{
+    font-family: Inter;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    padding: 3rem 1rem 3rem 1rem;
+}
+.write1-right p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    letter-spacing: 0.1em;
+}
+
+.write1-icons a{
+    display: block;
+    width: 10%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.inbox{
+    background-image: url(/image/Mask\ Group.png);
+    background-repeat: no-repeat;
+    height: 470px;
+    background-size: cover;
+    margin: 11rem 5rem 5rem 5rem;
+}
+
+.inbox-up{
+    padding: 4rem 0rem 0rem 0rem;
+}
+.inbox-up h6{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58.09px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.inbox-up p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    padding: 0rem 24rem 5rem 24rem;
+}
+
+.inbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inbox-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    width: 480px;
+    height: 80px;
+    border-radius: 24px;
+    background: #FFFFFF;
+}
+
+.inbox-down input[type="text"] {
+    border: none;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    width: 160px;
+    height: 60px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.meals{
+    padding:5rem 5rem 5rem 5rem;
+}
+
+.meals-up{
+    padding-bottom: 5rem;
+}
+
+.meals-up h6{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.57px;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+.meals-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+.menu1{
+    width: 290px;
+    height: 380px;
+}
+
+.menu1 .menu-middle h6{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+.menu1 .menu-down{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu1 .menu-down .menu-left{
+    display: flex;
+}
+
+.menu1 .menu-down .menu-right{
+    display: flex;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5rem 3rem 5rem;
+}
+
+.nav2-left p{
+    padding-top: 2rem;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #00000099;
+}
+
+.nav2-right{
+    display: flex;
+    gap: 4.5rem;
+    padding-top: 2rem;
+}
+
+.nav2-right a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+footer{
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 0rem 2rem 0rem;
+}
+
+.footer-left p{
+    padding-left: 11rem;
+}
+
+.footer-right{
+    display: flex;
+    gap: 2.2rem;
+}
